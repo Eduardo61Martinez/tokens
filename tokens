@@ -1,1 +1,33 @@
 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
+
+
+=================================================================================================================
+git init -------> para inicializar 
+git add nombreArchivo.tipoDeArchivo ---------------->para hacer un seguimiento
+git add . -----------> para hacer un seguimiento de todos los archivos en la carpeta
+git commit -m "notaDeTexto" -----------> para que hacer una captura de los archivos a los que hecemos seguimiento
+git status -s ------------> para ver a que archivos estamos haciendo un control
+git log --oneline ------>para ver todas las capturas que tenemos guardadas en git
+git reset --hard codigo---------->para restaurar el archivo a una version anterior 
+git commit --amend ---------------->para editar las notas de los commit
+git remote add origin https://github.com/martinejemplo/nombreDeRepositorio.git
+git push origin master --------->para actualizar la informacion guardada en github
+git pull linkdelrepositorio -------->para actulizar los archivos locales si edito desde github
+git tag nombreDelTag -m "una nota descriptiva"  --------> crea un archivo con el nombre de la etiqueta
+git push --tags ------->sube la etiqueta a github
+git clone linkDelrepositorio ------------->clona los archivos que tenemoe en github
+git branch nombreDelaRama ------------> crea una rama nueva.
+git branch -------------->vemoes las ramas y en que ramas estamos trabajando
+git checkout nombreDelaRama -------->nos movemos a la rama que queremos guardar archivos
+git marge nombreDeLaRamaAFusionar------------>fusiona los archivos guardados
+git branch -d nombreDeLaRama-------->borra una rama que hemos creado.
+git commit -am "nota descriptiva" ------> para relizar un commit saltando add 
+
+para cambiar de directorio de github escribimos en git
+git config --global user.name "nombreDeUsuarioDeGitHub"
+
+para ver las configuraciones del git local
+$ git config --global --list
+
+para clonar repositorios privados usar 
+git clone https://username@github.com/Eduardo61Martinez/EstrD2023s1.git 
